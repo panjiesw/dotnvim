@@ -3,13 +3,6 @@
 
 return {
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "onedark",
-    },
-  },
-
-  {
     "akinsho/bufferline.nvim",
     opts = {
       options = {
