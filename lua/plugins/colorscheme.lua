@@ -11,7 +11,8 @@ return {
 
   {
     "navarasu/onedark.nvim",
-    lazy = true,
+    -- lazy = true,
+    priority = 1000,
     opts = {
       style = "dark",
     },
@@ -56,7 +57,8 @@ return {
 
   {
     "maxmx03/fluoromachine.nvim",
-    priority = 1000,
+    -- priority = 1000,
+    lazy = true,
     opts = {
       glow = false,
       transparent = true,
@@ -90,7 +92,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "fluoromachine",
+      -- colorscheme = "fluoromachine",
+      colorscheme = "onedark",
     },
   },
 }
