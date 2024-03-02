@@ -1,22 +1,23 @@
 return {
-  -- {
-  --   "olimorris/onedarkpro.nvim",
-  --   lazy = true,
-  --   opts = {
-  --     highlights = {
-  --       NeoTreeGitUntracked = { fg = "#d19a66" },
-  --     },
-  --   },
-  -- },
-
   {
-    "navarasu/onedark.nvim",
+    "olimorris/onedarkpro.nvim",
     -- lazy = true,
     priority = 1000,
     opts = {
-      style = "dark",
+      highlights = {
+        NeoTreeGitUntracked = { fg = "#d19a66" },
+      },
     },
   },
+
+  -- {
+  --   "navarasu/onedark.nvim",
+  --   -- lazy = true,
+  --   priority = 1000,
+  --   opts = {
+  --     style = "dark",
+  --   },
+  -- },
 
   {
     "catppuccin/nvim",
@@ -93,7 +94,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "fluoromachine",
-      colorscheme = "onedark",
+      colorscheme = "onedark_vivid",
     },
   },
 }
